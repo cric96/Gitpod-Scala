@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 USER gitpod
-RUN sbt
+RUN brew install sbt
